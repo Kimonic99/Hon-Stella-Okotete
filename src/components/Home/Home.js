@@ -10,12 +10,9 @@ function Home() {
       <Container fluid className="home-section" id="home">
         <Container className="home-content">
           <Row>
-            <Col md={6} className="home-header">
+            <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
-                </span>
               </h1>
 
               <h1 className="heading-name">
@@ -42,6 +39,10 @@ function Home() {
         <Container>
           <Row>
             <Col md={12} className="home-about-social">
+            <h1> Mission Statement </h1>
+            <p>{" "}
+            Our mission is to create a world where every woman is respected and empowered, regardless of her race, religion, socio-economic background, or political views. We strive to create a society where women are no longer limited by gender-based social and economic constraints, but instead are equal partners in the political process, able to make their voices heard and their dreams realized. We believe that by creating an environment where women are respected and valued, we can create a society that is more just and equitable for all. We are dedicated to working together to ensure that women have the same opportunities and rights as men, and that they are able to lead fulfilling lives and contribute positively to their communities. We are committed to creating a world where every woman is seen, heard, and valued.
+              </p>
               <h1>Get in Touch</h1>
               <p>
                 {" "}

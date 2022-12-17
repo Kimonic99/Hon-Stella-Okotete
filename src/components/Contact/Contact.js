@@ -35,7 +35,7 @@ function Contact() {
           placeholder="Your name"
           name="name"
           required
-          style={{ justifyContent: "center", padding: "10px", marginBottom: "5px" }}
+          style={{ borderStyle: "groove", justifyContent: "center", padding: "10px", marginBottom: "20px", width: "30%"}}
         />
       </div>
       <div>
@@ -44,7 +44,7 @@ function Contact() {
           placeholder="Email"
           name="email"
           required
-          style={{ justifyContent: "center", padding: "5px", marginBottom: "5px" }}
+          style={{ borderStyle: "groove", justifyContent: "center", padding: "10px", marginBottom: "20px", width: "30%" }}
         />
       </div>
       <div>
@@ -52,7 +52,7 @@ function Contact() {
           placeholder="Your message"
           name="message"
           required
-          style={{ justifyContent: "center", padding: "5px", marginBottom: "5px", width: "300px" }}
+          style={{ borderStyle: "groove", justifyContent: "center", padding: "10px", marginBottom: "20px", width: "30%"}}
         />
       </div>
       <div>

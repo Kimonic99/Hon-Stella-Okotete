@@ -410,6 +410,18 @@ html {
   margin-top: 10px;
 }
 
+
+/*--------*/
+/* Contact */
+/*--------*/
+
+.kontakt {
+  justifyContent: left;
+  padding: "5px";
+  marginBottom: "5px";
+  width: "300px";
+}
+
 /* --------- */
 /* Footer */
 /* --------- */
